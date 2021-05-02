@@ -10,8 +10,12 @@ ALLOWED_HOSTS = []
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dbbiblioteca',
+        'USER': 'juano',
+        'PASSWORD': '3M44r4ll44',
+        'HOST': 'localhost',
+        'PORT': '5433',
     }
 }
 
